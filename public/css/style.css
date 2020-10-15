@@ -1,0 +1,71 @@
+.chat_section{
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	width: 50%;
+	background-color: #e8ffff;
+	box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+}
+.brand-section{
+	font-family: 'Secular One', sans-serif;
+	text-transform: uppercase;
+}
+.message_area{
+	height:500px;
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+	padding-top: 32px;
+}
+.message{
+	padding: 15px 15px 0.5px;
+	border-radius: 4px;
+	margin-bottom: 35px;
+	width: fit-content;
+	position: relative;
+	word-break: break-all;
+}
+.incoming{
+	background-color: #8f8be8;
+	color: #fff;
+}
+.outgoing{
+	background-color: #e9eafd;
+	color: #787986;
+	margin-left: auto;
+}
+.heading{
+	position: relative;
+	color: #333;
+	width: 2.5%;
+	word-break: break-all;
+	margin-left: auto;
+}
+.userconnectOrleft{
+	background-color: #e9eafd;
+	color: #787986;
+	padding: 15px 15px 0px;
+	border-radius: 4px;
+	margin-bottom: 35px;
+	width: fit-content;
+	word-break: break-all;
+}
+.heading-incoming{
+	position: relative;
+	color: #333;
+	width: 6%;
+	word-break: break-all;
+	margin-right: auto;
+}
+.heading p{
+	margin-bottom: 0px;
+	font-size: 10px;
+	font-weight: bold;
+}
+.heading-incoming p{
+	margin-bottom: 0px;
+	font-size: 10px;
+	font-weight: bold;
+}
